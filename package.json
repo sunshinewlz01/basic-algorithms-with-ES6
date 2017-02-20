@@ -1,0 +1,10 @@
+{
+  "name": "basic-algorithms-with-ES6",
+  "version": "1.0.0",
+  "author": "leizhewei8702@gmail.com",
+  "license": "MIT",
+  "description": "Basic data structures and algorithms with ES6.",
+  "dependencies": {
+    "log4js": "^1.1.0"
+  }
+}
