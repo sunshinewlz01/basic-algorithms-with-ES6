@@ -1,3 +1,3 @@
-let logger = require('./src/utils/logger.js');
+let logger = require('../utils/logger.js');
 
 logger.info('Hello,algorithm demo!');
