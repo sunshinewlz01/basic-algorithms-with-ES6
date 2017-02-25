@@ -1,5 +1,8 @@
 let logger = require('../utils/logger.js');
 
+/**
+* fibonacci generator function.
+*/
 function* fibonacci() {
   let [prev, curr] = [0, 1];
   for (;;) {
@@ -8,6 +11,10 @@ function* fibonacci() {
   }
 }
 
+/**
+ * @param {number} count count of fibonacci numbers
+ * @return {number[]}
+ */
 function getFibonacciNumbers(count) {
   let numbers = [];
   let numbersCount = 0;
