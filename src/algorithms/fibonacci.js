@@ -1,5 +1,6 @@
 let logger = require('../utils/logger.js');
-
+const fibonacciNumbers = getFibonacciNumbers(10);
+logger.info(fibonacciNumbers);
 /**
 * fibonacci generator function.
 */
@@ -33,6 +34,3 @@ function getFibonacciNumbers(count) {
 
   return numbers;
 }
-
-const fibonacciNumbers = getFibonacciNumbers(10);
-logger.info(fibonacciNumbers);
